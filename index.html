@@ -1048,7 +1048,7 @@
                     <p>• Blu by BCA Digital - Brand Ambassador blu by BCA Digital</p>
                     <p>• Green Ambassador - Edukator Lingkungan</p>
                     
-                    <a href="Nafila Arinda-resume.pdf" class="download-cv">
+                    <a href="Nafila Arinda-resume.pdf" class="download-cv" download>
                         <i class="fas fa-download"></i>
                         Download CV PDF
                     </a>
@@ -1504,15 +1504,6 @@
         // Add dynamic year to footer
         document.querySelector('footer p').innerHTML = document.querySelector('footer p').innerHTML.replace('2025', new Date().getFullYear());
 
-        // CV Download functionality
-        document.querySelector('.download-cv').addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // Create a simple alert for demo purposes
-            // In real implementation, this would trigger actual PDF download
-            alert('CV download will be available soon! Please contact me directly for now.');
-        });
-
         // Add loading animation
         window.addEventListener('load', () => {
             document.body.style.opacity = '1';
@@ -1535,4 +1526,5 @@
     </script>
 
 </body>
+
 
